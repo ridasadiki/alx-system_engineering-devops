@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 server {
     listen 80;
-    server_name simoboukar.tech;
+    server_name ridasdk;
 
     location /airbnb-onepage/ {
         proxy_pass http://localhost:5000;
